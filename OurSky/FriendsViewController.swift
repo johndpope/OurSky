@@ -169,13 +169,6 @@ class FriendsViewController: UIViewController, UITableViewDelegate, UITableViewD
         let friendTime = friendStatus[indexPath.row]["online"] as? String ?? ""
         let friendOnline = transferDate.calculateOnlineStatus(friendTime)
         
-        if let friendProfilePicURL = friendStatus[indexPath.row]["profilePic"] as? NSURL,
-            friendProfilePicData = NSData(contentsOfURL: friendProfilePicURL) {
-            
-            friendCell.friendProfilePic.image = UIImage(data: friendProfilePicData)
-            
-        }
-        
         if friendStatus[indexPath.row]["phoneNumber"] == nil {
             
             friendCell.facetimeCall.hidden = true
@@ -190,9 +183,17 @@ class FriendsViewController: UIViewController, UITableViewDelegate, UITableViewD
         friendCell.facetimeCall.addTarget(self, action: #selector(facetime(_:)), forControlEvents: .TouchUpInside)
         friendCell.facetimeCall.layer.cornerRadius = friendCell.optionButton.bounds.width/2
         friendCell.facetimeCall.clipsToBounds = true
+        
         friendCell.friendProfilePic.layer.cornerRadius = 3.0
         friendCell.friendProfilePic.clipsToBounds = true
         
+        if let friendProfilePicString = friendStatus[indexPath.row]["profilePic"] as? String,
+            friendProfilePicURL = NSURL(string: friendProfilePicString),
+            friendProfilePicData = NSData(contentsOfURL: friendProfilePicURL) {
+            
+            friendCell.friendProfilePic.image = UIImage(data: friendProfilePicData)
+
+        }
         
         return friendCell
     }

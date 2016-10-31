@@ -75,8 +75,8 @@ class SearchTableViewController: UITableViewController, FirebaseNameListDelegate
         
         let identifier = "searchCell"
         let cell = tableView.dequeueReusableCellWithIdentifier(identifier, forIndexPath: indexPath) as! SearchTableViewCell
-        //        let names = filteredNames.map { return $0 }
-        //        let name = names[indexPath.row]
+//                let names = filteredNames.map { return $0 }
+//                let name = names[indexPath.row]
         
         cell.name.text = filteredNames[indexPath.row]["name"]
         cell.addFriend.addTarget(self, action: #selector(SearchTableViewController.friendRequest(_:)), forControlEvents: .TouchUpInside)

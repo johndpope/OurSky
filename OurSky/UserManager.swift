@@ -153,13 +153,16 @@ extension UserManager {
                                             
                                             return
                                             
+                                        } else {
+                                            
+                                            self.firebaseDatabase.child("users").child(currentUser.identifier).setValue(newUserJSON)
+                                            self.firebaseDatabase.child("name_list").child(currentUser.name).setValue(currentUser.identifier)
+                                            
                                         }
                                     }
                                 }
                             )
                             
-                            self.firebaseDatabase.child("users").child(currentUser.identifier).setValue(newUserJSON)
-                            self.firebaseDatabase.child("name_list").child(currentUser.name).setValue(currentUser.identifier)
                             FIRAnalytics.logEventWithName(kFIREventLogin, parameters: ["ID": currentUser.identifier, "name": currentUser.name])
                             
                             success(user: currentUser)
