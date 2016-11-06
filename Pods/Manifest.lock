@@ -1,0 +1,179 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection (= 2.4.1)
+    - AFNetworking/NSURLSession (= 2.4.1)
+    - AFNetworking/Reachability (= 2.4.1)
+    - AFNetworking/Security (= 2.4.1)
+    - AFNetworking/Serialization (= 2.4.1)
+    - AFNetworking/UIKit (= 2.4.1)
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (3.4.1)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - boost/graph-includes (1.51.0)
+  - boost/math-includes (1.51.0)
+  - boost/numeric-includes (1.51.0)
+  - boost/pointer_cast-includes (1.51.0)
+  - boost/preprocessor-includes (1.51.0)
+  - boost/shared_ptr-includes (1.51.0)
+  - boost/string_algorithms-includes (1.51.0)
+  - clipper (6.1.3a)
+  - Crashlytics (3.7.3):
+    - Fabric (~> 1.6.3)
+  - DateTools (1.7.0)
+  - eigen (3.2.5):
+    - boost/numeric-includes
+    - boost/preprocessor-includes
+  - Fabric (1.6.8)
+  - FBSDKCoreKit (4.14.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.14.0):
+    - FBSDKCoreKit
+  - Firebase (3.5.1):
+    - Firebase/Core (= 3.5.1)
+  - Firebase/Analytics (3.5.1):
+    - FirebaseAnalytics (~> 3.3.1)
+  - Firebase/Auth (3.5.1):
+    - Firebase/Analytics
+    - FirebaseAuth (= 3.0.4)
+  - Firebase/Core (3.5.1):
+    - Firebase/Analytics
+  - Firebase/Database (3.5.1):
+    - Firebase/Analytics
+    - FirebaseDatabase (= 3.0.2)
+  - Firebase/Storage (3.5.1):
+    - Firebase/Analytics
+    - FirebaseStorage (= 1.0.3)
+  - FirebaseAnalytics (3.3.1):
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleInterchangeUtilities (~> 1.2)
+    - GoogleSymbolUtilities (~> 1.1)
+    - GoogleUtilities (~> 1.2)
+  - FirebaseAuth (3.0.4):
+    - FirebaseAnalytics (~> 3.2)
+    - GoogleNetworkingUtilities (~> 1.2)
+    - GoogleParsingUtilities (~> 1.1)
+    - GoogleUtilities (~> 1.2)
+  - FirebaseDatabase (3.0.2):
+    - FirebaseAnalytics (~> 3.2)
+  - FirebaseInstanceID (1.0.8)
+  - FirebaseStorage (1.0.3):
+    - FirebaseAnalytics (~> 3.3)
+    - GoogleNetworkingUtilities (~> 1.2)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - GoogleInterchangeUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.2.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleParsingUtilities (1.1.1):
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.1.1)
+  - GoogleUtilities (1.3.1):
+    - GoogleSymbolUtilities (~> 1.0)
+  - libjson (7.6.1)
+  - LiquidFloatingActionButton (1.2.0)
+  - proj4 (4.8.0)
+  - SMCalloutView (2.1.5)
+  - tinyxml (2.1.0)
+  - WhirlyGlobe (2.4):
+    - WhirlyGlobe/MaplyComponent (= 2.4)
+  - WhirlyGlobe/aaplus (2.4)
+  - WhirlyGlobe/glues-wg (2.4)
+  - WhirlyGlobe/kissxml (2.4)
+  - WhirlyGlobe/Lib (2.4):
+    - clipper (~> 6.1.3a)
+    - libjson (~> 7.6.0)
+    - proj4 (~> 4.8.0)
+    - tinyxml (~> 2.1.0)
+    - WhirlyGlobe/glues-wg
+    - WhirlyGlobe/Lib-Headers
+    - WhirlyGlobe/octencoding
+    - WhirlyGlobe/shapefile
+  - WhirlyGlobe/Lib-Headers (2.4):
+    - boost/graph-includes (<= 1.51.0)
+    - boost/math-includes (<= 1.51.0)
+    - boost/pointer_cast-includes (<= 1.51.0)
+    - boost/shared_ptr-includes (<= 1.51.0)
+    - boost/string_algorithms-includes (<= 1.51.0)
+    - eigen (~> 3.2.4)
+  - WhirlyGlobe/MaplyComponent (2.4):
+    - AFNetworking (~> 2.4.0)
+    - FMDB
+    - SMCalloutView
+    - WhirlyGlobe/aaplus
+    - WhirlyGlobe/kissxml
+    - WhirlyGlobe/Lib
+    - WhirlyGlobe/MaplyComponent-Headers
+  - WhirlyGlobe/MaplyComponent-Headers (2.4):
+    - WhirlyGlobe/Lib-Headers
+  - WhirlyGlobe/octencoding (2.4)
+  - WhirlyGlobe/shapefile (2.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Crashlytics
+  - DateTools
+  - Fabric
+  - FBSDKLoginKit
+  - Firebase
+  - Firebase/Auth
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Storage
+  - LiquidFloatingActionButton
+  - WhirlyGlobe
+
+SPEC CHECKSUMS:
+  AFNetworking: 41d45d2c14219af0fa5addf3cfd433a002c13c9f
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  boost: 6c5c8d8daef26ac83c1e1c00ad14de62b80161d7
+  clipper: b009ea56c501e756299e6999e2c73eef6e1ed218
+  Crashlytics: 76f6beaff70acf226139582c09c78461597c2b98
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  eigen: f44cbe83c3d11ff9efc2333914dc090b827f8176
+  Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
+  FBSDKCoreKit: 6e020b5db0b5bd1e01f5fb0902131befd129a502
+  FBSDKLoginKit: da563567a108050ef83739c8c8c001ee9e25fa13
+  Firebase: 9b3edeffaf60d56e377dc5281e91c4ba935a5ad9
+  FirebaseAnalytics: d968d4d5f6aeb795cd64144337bcd233e530efc6
+  FirebaseAuth: 26fd291c3b552fc9658420b867520d5ae080421c
+  FirebaseDatabase: 59bea2e7dfd81b3b8b2f8e396caf1a52c2ced6f7
+  FirebaseInstanceID: ba1e640935235e5fac39dfa816fe7660e72e1a8a
+  FirebaseStorage: 3992817bf405f5c1a4f8349678d22724cd0ef509
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  GoogleInterchangeUtilities: def8415a862effc67d549d5b5b0b9c7a2f97d4de
+  GoogleNetworkingUtilities: 3e83269048cfb498dc7ec83ab36813360965c74f
+  GoogleParsingUtilities: 30b3896f9ee167dc78747f013d3de157ced1cadf
+  GoogleSymbolUtilities: 33117db1b5f290c6fbf259585e4885b4c84b98d7
+  GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
+  libjson: 1a065ca64704a5d1b51c3754268998942d57ac6f
+  LiquidFloatingActionButton: 9c28961915754e08cf596ea6bdd60f9cd949f172
+  proj4: 234525105d05a33b2ae9a90a6fe3935f7a246f7e
+  SMCalloutView: 5c0ee363dc8e7204b2fda17dfad38c93e9e23481
+  tinyxml: 41d718babd106ac5d39d4e98b43c835d3b9080d8
+  WhirlyGlobe: 2849f458220be42d92d814ba04377586cadbf7f1
+
+PODFILE CHECKSUM: f09c66eb3f9d6cb0bc8d0b2e1bfba9323c6d140c
+
+COCOAPODS: 1.0.0
