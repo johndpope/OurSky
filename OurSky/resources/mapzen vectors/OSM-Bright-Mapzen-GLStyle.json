@@ -1,0 +1,33 @@
+{
+    "version": 1,
+    "name": "Mapzen: Adapted from Mapbox Outdoors",
+    "constants":
+    {
+        "@sans_lt":           "Open Sans Regular","DejaVu Sans Book","unifont Medium",
+        "@sans_lt_italic":    "Open Sans Italic","DejaVu Sans Italic","unifont Medium",
+        "@sans":              "Open Sans Semibold","DejaVu Sans Book","unifont Medium",
+        "@sans_italic":       "Open Sans Semibold Italic","DejaVu Sans Italic","unifont Medium",
+        "@sans_bold":         "Open Sans Bold","DejaVu Sans Bold","unifont Medium",
+        "@sans_bold_italic":  "Open Sans Bold Italic","DejaVu Sans Bold Italic","unifont Medium",
+        
+        "@land":              "#FCFBE7",
+        "@water":             "#C4DFF6",
+        "@grass":             "#E6F2C1",
+        "@beach":             "#FFEEC7",
+        "@park":              "#DAF2C1",
+        "@cemetery":          "#D6DED2",
+        "@wooded":            "#C3D9AD",
+        "@agriculture":       "#F2E8B6",
+        
+        "@building":          "#E4E0E0",
+        "@hospital":          "rgb(229,198,195)",
+        "@school":            "#FFF5CC",
+        "@sports":            "#B8E6B8",
+        
+        "@residential":       "#F7EC9F",
+        "@commercial":        "#F564FC",
+        "@industrial":        "#F2DD58",
+        "@parking":           "#EEE",
+
+    }
+}
