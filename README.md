@@ -28,11 +28,11 @@
   * Crashlytics
 
 # ScreenShot
-![img_0169](https://cloud.githubusercontent.com/assets/21031479/20045299/e6c0cc60-a4da-11e6-876a-124ab847114a.PNG)
-![img_0170](https://cloud.githubusercontent.com/assets/21031479/20045301/e6c4f344-a4da-11e6-82a8-dc103f2ee6bb.PNG)
-![img_0172](https://cloud.githubusercontent.com/assets/21031479/20045303/e6cc24a2-a4da-11e6-81a0-2fe4ede5baad.PNG)
-![img_0173](https://cloud.githubusercontent.com/assets/21031479/20045302/e6ca6612-a4da-11e6-83bc-f5ca4c647e2f.PNG)
-![img_0174](https://cloud.githubusercontent.com/assets/21031479/20045300/e6c11486-a4da-11e6-99a5-2743fe96e0a4.PNG)
+![img_0169](https://cloud.githubusercontent.com/assets/21031479/20045414/c6dfc260-a4db-11e6-9865-15471f88ad96.PNG)
+![img_0170](https://cloud.githubusercontent.com/assets/21031479/20045416/c6e7eff8-a4db-11e6-832d-970b5fb759ee.PNG)
+![img_0172](https://cloud.githubusercontent.com/assets/21031479/20045415/c6e5686e-a4db-11e6-85d1-05f225498ab8.PNG)
+![img_0173](https://cloud.githubusercontent.com/assets/21031479/20045417/c6e90ad2-a4db-11e6-9a6b-a3ae9ea35e11.PNG)
+![img_0174](https://cloud.githubusercontent.com/assets/21031479/20045413/c6de5f56-a4db-11e6-96ab-240d19bb0e1d.PNG)
 
 # Requirement
   * iOS 9.0+
